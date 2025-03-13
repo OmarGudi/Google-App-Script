@@ -33,7 +33,6 @@ void loop()
                     "&humidity=" + String(humidity) +
                     "&gas=" + String(gas) +
                     "&pressure=" + String(pressure);
-
       Serial.println("Enviando datos a Google Sheets...");
       Serial.println(url);
       http.begin(url); 
